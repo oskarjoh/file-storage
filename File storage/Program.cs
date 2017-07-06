@@ -58,6 +58,7 @@ namespace File_storage
             temppassword = Console.ReadLine();
             Console.WriteLine("\n\n"); // lager melomrom
 
+            
 
         }
 
@@ -72,12 +73,12 @@ namespace File_storage
 
         public void nyBrukerData()
         {
-            
+            skrivTilFil();
         }
 
         public void skrivTilFil()
         {
-
+            StreamWriter sWriter = new StreamWriter("brukerdata.txt");
         }
     }   //class
 }   //name spaice
