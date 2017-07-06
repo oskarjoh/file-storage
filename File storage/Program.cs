@@ -73,8 +73,12 @@ namespace File_storage
 
         public void nyBrukerData()
         {
-            Console.WriteLine("hva skal det nye brikernavnet vere");
+            Console.WriteLine("hva skal det nye brukernavnet vere");
             bruker.brukernavn = Console.ReadLine();
+            Console.WriteLine("\n\n");
+
+            Console.WriteLine("hva skal det nye passordet vere");
+            bruker.password = Console.ReadLine();
             Console.WriteLine("\n\n");
 
             skrivTilFil();
