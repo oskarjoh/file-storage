@@ -10,7 +10,18 @@ namespace File_storage
     {
         static void Main(string[] args)
         {
-
+            ProgramVerktoy 
         }
+    }
+
+    struct bruker
+    {
+        public String brukernavn;
+        public String password;
+    }
+
+    class ProgramVerktøy
+    {
+
     }
 }
