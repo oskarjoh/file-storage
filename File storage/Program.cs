@@ -57,12 +57,12 @@ namespace File_storage
             temppassword = Console.ReadLine();
         }
 
-        internal void lesFraFil()
+        public void lesFraFil()
         {
             
         }
 
-        internal void nyBrukerData()
+        public void nyBrukerData()
         {
             
         }
