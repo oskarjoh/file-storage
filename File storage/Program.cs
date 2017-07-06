@@ -52,9 +52,13 @@ namespace File_storage
 
             Console.WriteLine("Hva er brkernavnet");
             tempBrukernavn = Console.ReadLine();
+            Console.WriteLine("\n\n"); // lager melomrom
 
             Console.WriteLine("hva er passordet");
             temppassword = Console.ReadLine();
+            Console.WriteLine("\n\n"); // lager melomrom
+
+
         }
 
         public void lesFraFil()
