@@ -10,7 +10,7 @@ namespace File_storage
     {
         static void Main(string[] args)
         {
-            ProgramVerktoy 
+            
         }
     }
 
@@ -22,6 +22,6 @@ namespace File_storage
 
     class ProgramVerktøy
     {
-
+        bruker bruker = new bruker();
     }
 }
