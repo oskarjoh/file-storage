@@ -82,6 +82,8 @@ namespace File_storage
 
             sWriter.WriteLine(bruker.brukernavn);
             sWriter.WriteLine(bruker.password);
+
+            sWriter.Close();
         }
     }   //class
 }   //name spaice
