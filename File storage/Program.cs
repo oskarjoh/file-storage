@@ -58,7 +58,10 @@ namespace File_storage
             temppassword = Console.ReadLine();
             Console.WriteLine("\n\n"); // lager melomrom
 
-            
+            if(tempBrukernavn == bruker.brukernavn && temppassword == bruker.password)
+            {
+
+            }
 
         }
 
