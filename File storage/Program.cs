@@ -60,7 +60,12 @@ namespace File_storage
 
             if(tempBrukernavn == bruker.brukernavn && temppassword == bruker.password)
             {
+                string hemeligtekst = "the Ultemate answer \n" +
+                    "to life, the universe and evriting \n" +
+                    "is 42";
+                Console.WriteLine(hemeligtekst);
 
+                Console.WriteLine("\n")
             }
             else
             {
