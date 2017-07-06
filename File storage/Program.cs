@@ -48,7 +48,8 @@ namespace File_storage
                         ProgramVerktoy.nyBrukerData();
                         break;
                     default:
-                        Console.WriteLine("Feill valg. \n\n")
+                        Console.WriteLine("Feill valg. \n\n");
+                        break;
                 }
             }
         }
