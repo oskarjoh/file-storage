@@ -38,6 +38,18 @@ namespace File_storage
 
                 Console.ReadLine();
                 Console.WriteLine("\n");
+
+                switch(valg)
+                {
+                    case '1':
+                        ProgramVerktoy.loggInn();
+                        break;
+                    case '2':
+                        ProgramVerktoy.nyBrukerData();
+                        break;
+                    default:
+                        Console.WriteLine("Feill valg. \n\n")
+                }
             }
         }
     }
