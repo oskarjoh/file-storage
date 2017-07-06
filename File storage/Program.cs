@@ -79,6 +79,8 @@ namespace File_storage
         public void skrivTilFil()
         {
             StreamWriter sWriter = new StreamWriter("brukerdata.txt");
+
+
         }
     }   //class
 }   //name spaice
