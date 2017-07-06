@@ -74,5 +74,10 @@ namespace File_storage
         {
             
         }
+
+        public void skrivTilFil()
+        {
+
+        }
     }   //class
 }   //name spaice
