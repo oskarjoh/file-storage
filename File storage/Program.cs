@@ -62,6 +62,10 @@ namespace File_storage
             {
 
             }
+            else
+            {
+                Console.WriteLine("du feilet med å loge inn");
+            }
 
         }
 
