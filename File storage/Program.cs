@@ -18,6 +18,11 @@ namespace File_storage
     {
         public String brukernavn;
         public String password;
+
+        bruker(string buhu)
+        {
+            brukernavn = buhu;
+        }
     }
 
     class ProgramVerktøy
