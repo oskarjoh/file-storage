@@ -51,6 +51,11 @@ namespace File_storage
                         Console.WriteLine("Feill valg. \n\n");
                         break;
                 }
+
+                if (Char.ToUpper(valg) != 'x')
+                {
+                    valg = '0';
+                }
             }
         }
     }
