@@ -19,7 +19,7 @@ namespace File_storage
         public String brukernavn;
         public String password;
 
-        bruker(string buhu)
+        bruker(string a, string b)
         {
             brukernavn = buhu;
         }
