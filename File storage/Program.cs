@@ -21,6 +21,24 @@ namespace File_storage
             {
                 ProgramVerktoy.lesFraFil();
             }
+
+            Char valg = '0';
+
+            while (valg == '0')
+            {
+                string muligheter =
+                    "Hva ønsker du å gjøre\n\n" +
+                    "(1) Logg inn\n" +
+                    "(2) Endere Bruker\n" +
+                    "(x) Avslutt";
+
+                Console.WriteLine(muligheter);
+
+                valg = Console.ReadKey().KeyChar;
+
+                Console.ReadLine();
+                Console.WriteLine("\n");
+            }
         }
     }
 
@@ -65,7 +83,7 @@ namespace File_storage
                     "is 42";
                 Console.WriteLine(hemeligtekst);
 
-                Console.WriteLine("\n")
+                Console.WriteLine("\n");
             }
             else
             {
