@@ -59,7 +59,11 @@ namespace File_storage
 
         public void lesFraFil()
         {
-            
+            StreamReader sReder = new StreamReader("brukerdata.txt");
+
+            bruker = new bruker(sReder);
+
+            sReder.Close();
         }
 
         public void nyBrukerData()
