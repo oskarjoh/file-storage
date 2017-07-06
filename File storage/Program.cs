@@ -80,7 +80,8 @@ namespace File_storage
         {
             StreamWriter sWriter = new StreamWriter("brukerdata.txt");
 
-
+            sWriter.WriteLine(bruker.brukernavn);
+            sWriter.WriteLine(bruker.password);
         }
     }   //class
 }   //name spaice
