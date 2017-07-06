@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace File_storage
 {
@@ -10,7 +11,16 @@ namespace File_storage
     {
         static void Main(string[] args)
         {
-            
+            ProgramVerktoy ProgramVerktoy = new ProgramVerktoy();
+
+            if(!File.Exists("brukerdata.txt"))
+            {
+                ProgramVerktoy.nyBrukerData();
+            }
+            else
+            {
+                ProgramVerktoy.lesFraFil();
+            }
         }
     }
 
@@ -19,14 +29,42 @@ namespace File_storage
         public String brukernavn;
         public String password;
 
-        bruker(string a, string b)
+        public bruker(StreamReader stream)
         {
-            brukernavn = buhu;
+            brukernavn = stream.ReadLine();
+            password = stream.ReadLine();
         }
     }
 
-    class ProgramVerktøy
+    class ProgramVerktoy
     {
         bruker bruker = new bruker();
-    }
-}
+
+        public ProgramVerktoy( )
+        {
+
+        }
+
+        public void loggInn()
+        {
+            string tempBrukernavn;
+            string temppassword;
+
+            Console.WriteLine("Hva er brkernavnet");
+            tempBrukernavn = Console.ReadLine();
+
+            Console.WriteLine("hva er passordet");
+            temppassword = Console.ReadLine();
+        }
+
+        internal void lesFraFil()
+        {
+            
+        }
+
+        internal void nyBrukerData()
+        {
+            
+        }
+    }   //class
+}   //name spaice
